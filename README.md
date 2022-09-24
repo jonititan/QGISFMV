@@ -22,25 +22,27 @@ Standards supported:
 
 ## Table of Contents
 
-- [Motivation](#motivation)
-- [Dependencies](#dependencies)
-- [For show video](#for-show-video)
-- [Usage](#usage)
-- [Recommended readings](#recommended-readings)
-- [Installation](#installation)
-    - [Installation on Windows](#installation-on-windows)
-    - [Installation on Ubuntu](#installation-on-ubuntu)
-    - [Installation on Archlinux](#installation-on-archlinux)
-- [Slides](#slides)
-- [Mentions](#mentions)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Contributing](#contributing)
+- [QGIS Full Motion Video (FMV)  #QGISFMV](#qgis-full-motion-video-fmv--qgisfmv)
+  - [Donations](#donations)
+  - [Table of Contents](#table-of-contents)
+  - [Motivation](#motivation)
+  - [Dependencies](#dependencies)
+  - [For show video](#for-show-video)
+  - [Usage](#usage)
+  - [Recommended readings](#recommended-readings)
+  - [Installation](#installation)
+  - [Installation on Windows](#installation-on-windows)
+  - [Installation on Ubuntu](#installation-on-ubuntu)
+  - [Installation on Archlinux](#installation-on-archlinux)
+  - [Slides](#slides)
+  - [Mentions](#mentions)
+  - [Screenshots](#screenshots)
+  - [Features](#features)
+  - [Contributing](#contributing)
     - [Contributing Code](#contributing-code)
     - [Contributing translations](#contributing-translations)
-	- [Contributors List](#contributors-list)
-- [License](#license)
-- [Donations](#donations)
+    - [Contributors List](#contributors-list)
+  - [License](#license)
 	
 ## Motivation
 
@@ -130,7 +132,7 @@ If it does not install automatically, you should run:
 
 **Python dependencies**
 
-`sudo pip3 install matplotlib python-apt`
+`sudo pip3 install matplotlib python-apt stonesoup`
 
 The installation of **OpenCV** and **OpenCV-contrib** requires a lot of time for this reason you will have to install these dependencies using this [script](code/install-opencv.sh)
 

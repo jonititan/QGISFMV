@@ -166,7 +166,7 @@ class QgsFmvPlayer(QMainWindow, Ui_PlayerWindow):
 
         self.playerState = QMediaPlayer.LoadingMedia
 
-        self.sliderDuration.setRange(0, self.player.duration() / 1000)
+        self.sliderDuration.setRange(0, int(self.player.duration() / 1000)) #float can be sent which causes error
 
         self.sliderDuration.sliderReleased.connect(self.sliderDurationReleased)
 
